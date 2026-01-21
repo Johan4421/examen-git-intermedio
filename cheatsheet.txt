@@ -3,14 +3,16 @@ Comandos necesarios para resolver los ejercicios del examen. Orden alfabético
 
 • git add [archivo] / git add / git add -f [archivo]
 • git branch [nombre]
+• git checkout
 • git cherry-pick [hash]
 • git clone [url]
 • git commit --amend
 • git commit -m "mensaje"
 • git config
+• git diff
 • git fetch origin
 • git init
-• git log --oneline --graph --all
+• git log --oneline --graph --all --decorate
 • git merge [rama]
 • git mv [origen] [destino]
 • git pull origin [rama]
@@ -19,7 +21,9 @@ Comandos necesarios para resolver los ejercicios del examen. Orden alfabético
 • git remote -v
 • git reset --hard [hash]
 • git rm [archivo]
-• git stash / git stash pop
+• git show
+• git stash / stash pop / stash apply / stash list
 • git status
+• git status --ignored
 • git switch [nombre] / git checkout [nombre]
 • git tag [nombre]
